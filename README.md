@@ -1,4 +1,4 @@
-# gtip
+# gtip [![Build Status](https://travis-ci.org/nirajpandkar/gtip.svg?branch=master)](https://travis-ci.org/nirajpandkar/gtip)
 
 > CLI that gives a random git-tip.
 
