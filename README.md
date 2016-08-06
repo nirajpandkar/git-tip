@@ -13,7 +13,24 @@ $ npm install --global gtip
 ## Usage
 
 ```
-$ gtip   
+  Usage
+      $ gtip [options]
+  Options
+      --help    Provides usage help (Shows the current page)
+      --all     Gives all the git tips
+      <keyword> Gives the git tips consisting of the keyword
+  Examples
+      $ gtip bypass
+
+      1. Bypass pre-commit and commit-msg githooks
+      => git commit --no-verify
+
+      $ gtip
+
+      Git Tip of the Terminal
+      -------------------------
+      Saving current state of tracked files without commiting
+      => git stash
 ```
 
 ## License
