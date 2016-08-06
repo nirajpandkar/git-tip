@@ -28,6 +28,7 @@
   "dependencies": {
     "chalk": "1.1.3",
     "commander": "2.9.0",
+    "meow": "3.7.0",
     "unique-random-array": "1.0.0"
   }
 }
