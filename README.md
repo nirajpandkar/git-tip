@@ -32,6 +32,15 @@ $ npm install --global gtip
       Saving current state of tracked files without commiting
       => git stash
 ```
+## Todo
+
+- [x] Basic Functionality
+- [x] Help page
+- [ ] Add continuous integration(Travis CI)
+- [ ] Add tests
+- [ ] Code coverage
+- [ ] Script to automatically update tips.json file
+- [ ] Script to execute `gtip` every time a new terminal opens
 
 ## License
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
