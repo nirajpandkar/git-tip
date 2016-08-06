@@ -7,6 +7,7 @@
     "gtip": "./index.js"
   },
   "scripts": {
+    "commit":"git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-tips": "wget https://raw.githubusercontent.com/git-tips/tips/master/tips.json -O tips.json"
   },
@@ -30,5 +31,12 @@
     "commander": "2.9.0",
     "meow": "3.7.0",
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.5",
+    "cz-conventional-changelog": "1.1.6"
+  },
+  "czConfig":{
+    "path":"node_modules/cz-conventional-changelog"
   }
 }
