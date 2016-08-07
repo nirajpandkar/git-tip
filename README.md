@@ -4,6 +4,8 @@
 
 The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json) is taken from this awesome project - [git-tips](https://github.com/git-tips/tips)
 
+![alt text](Images/gtip_screenshot.png "gtip Screenshot")
+
 ## Install
 
 ```
