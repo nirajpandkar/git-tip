@@ -69,8 +69,9 @@ else if(cli.flags.all){
     }
 }
 else if(cli.input[0]==undefined){
+    tip = randomTip();
     console.log(chalk.bold.yellow(" Git Tip of the Terminal "));
     console.log(chalk.bold.yellow("-------------------------"));
-    console.log(chalk.bold.cyan(randomTip().title));
-    console.log(chalk.bold.green("=> "+randomTip().tip));
+    console.log(chalk.bold.cyan(tip.title));
+    console.log(chalk.bold.green("=> "+tip.tip));
 }
