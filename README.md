@@ -36,9 +36,11 @@ $ npm install --global gtip
 
 - [x] Basic Functionality
 - [x] Help page
-- [ ] Add continuous integration(Travis CI)
-- [ ] Add tests
-- [ ] Code coverage
+- [x] Add continuous integration(Travis CI)
+- [x] Add tests
+- [ ] Add more relevant tests to increase code coverage
+- [x] Code coverage
+- [ ] Add code coverage reports
 - [ ] Script to automatically update tips.json file
 - [ ] Script to execute `gtip` every time a new terminal opens
 
