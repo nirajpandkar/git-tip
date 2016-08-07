@@ -1,6 +1,6 @@
 {
   "name": "gtip",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Gives a random git tip in the terminal.",
   "main": "index.js",
   "bin": {
