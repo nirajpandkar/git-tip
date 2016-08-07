@@ -13,6 +13,7 @@ before_script:
   - npm prune
 script:
   - npm run update-tips
+  - npm run test
 after_success:
 branches:
   except:
