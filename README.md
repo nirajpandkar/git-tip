@@ -34,6 +34,13 @@ $ npm install --global gtip
       Saving current state of tracked files without commiting
       => git stash
 ```
+
+### Script to greet yourself with a git-tip every time a new terminal opens
+
+```
+which gtip >> ~/.bashrc
+```
+
 ## Todo
 
 - [x] Basic Functionality
@@ -43,8 +50,8 @@ $ npm install --global gtip
 - [ ] Add more relevant tests to increase code coverage
 - [x] Code coverage
 - [ ] Add code coverage reports
-- [ ] Script to automatically update tips.json file
-- [ ] Script to execute `gtip` every time a new terminal opens
+- [ ] Script to automatically update tips.json file when installing globally from npm
+- [x] Script to execute `gtip` every time a new terminal opens
 
 ## License
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
