@@ -9,7 +9,8 @@
   "scripts": {
     "commit": "git-cz",
     "test": "istanbul cover -x *.test.js _mocha -- -R spec index.test.js",
-    "update-tips": "wget https://raw.githubusercontent.com/git-tips/tips/master/tips.json -O tips.json"
+    "update-tips": "wget https://raw.githubusercontent.com/git-tips/tips/master/tips.json -O tips.json",
+    "postinstall": "wget https://raw.githubusercontent.com/git-tips/tips/master/tips.json -O tips.json"
   },
   "repository": {
     "type": "git",
