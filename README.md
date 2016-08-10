@@ -12,6 +12,12 @@ The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json)
 $ npm install --global gtip
 ```
 
+### Script to greet yourself with a git-tip every time a new terminal opens
+
+```
+which gtip >> ~/.bashrc
+```
+
 ## Usage
 
 ```
@@ -33,12 +39,6 @@ $ npm install --global gtip
       -------------------------
       Saving current state of tracked files without commiting
       => git stash
-```
-
-### Script to greet yourself with a git-tip every time a new terminal opens
-
-```
-which gtip >> ~/.bashrc
 ```
 
 ## Todo
