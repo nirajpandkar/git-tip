@@ -1,10 +1,10 @@
 {
-  "name": "gtip",
+  "name": "git-tip",
   "version": "1.2.1",
   "description": "Gives a random git tip in the terminal.",
   "main": "index.js",
   "bin": {
-    "gtip": "./index.js"
+    "git-tip": "./index.js"
   },
   "scripts": {
     "commit": "git-cz",

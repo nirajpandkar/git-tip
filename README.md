@@ -1,39 +1,39 @@
-# gtip [![Build Status](https://travis-ci.org/nirajpandkar/gtip.svg?branch=master)](https://travis-ci.org/nirajpandkar/gtip)
+# git-tip
 
 > CLI that gives a random git-tip.
 
 The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json) is taken from this awesome project - [git-tips](https://github.com/git-tips/tips)
 
-![alt text](Images/gtip_screenshot.png "gtip Screenshot")
+![alt text](Images/git-tip.png "git-tip Screenshot")
 
 ## Install
 
 ```
-$ npm install --global gtip
+$ npm install --global git-tip
 ```
 
 ### Script to greet yourself with a git-tip every time a new terminal opens
 
 ```
-which gtip >> ~/.bashrc
+which git-tip >> ~/.bashrc
 ```
 
 ## Usage
 
 ```
   Usage
-      $ gtip [options]
+      $ git-tip [options]
   Options
       --help    Provides usage help (Shows the current page)
       --all     Gives all the git tips
       <keyword> Gives the git tips consisting of the keyword
   Examples
-      $ gtip bypass
+      $ git-tip bypass
 
       1. Bypass pre-commit and commit-msg githooks
       => git commit --no-verify
 
-      $ gtip
+      $ git-tip
 
       Git Tip of the Terminal
       -------------------------

@@ -32,18 +32,18 @@ function allTips(){
 
 const cli = meow(`
 Usage
-    $ gtip [options]
+    $ git-tip [options]
 Options
     --help      Provides usage help (Shows the current page)
     --all       Gives all the git tips
     <keyword>   Gives the git tips consisting of the keyword
 Examples
-    $ gtip bypass
+    $ git-tip bypass
 
     1. Bypass pre-commit and commit-msg githooks
     => git commit --no-verify
 
-    $ gtip
+    $ git-tip
 
     Git Tip of the Terminal
     -------------------------
