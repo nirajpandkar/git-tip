@@ -3,6 +3,7 @@
 > CLI that gives a random git-tip.
 
 The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json) is taken from this awesome project - [git-tips](https://github.com/git-tips/tips)
+Any suggestion/criticism/PRs are welcome :)
 
 ![alt text](Images/git-tip.gif "git-tip gif")
 
