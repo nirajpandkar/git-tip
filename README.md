@@ -53,6 +53,7 @@ which git-tip >> ~/.bashrc
 - [ ] Add code coverage reports
 - [x] Script to automatically update tips.json file when installing globally from npm
 - [x] Script to execute `git-tip` every time a new terminal opens
+- [ ] Add `wget`'s necessity before installation in the README.
 
 ## License
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
