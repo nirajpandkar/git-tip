@@ -1,6 +1,6 @@
 # git-tip [![Build Status](https://travis-ci.org/nirajpandkar/git-tip.svg?branch=master)](https://travis-ci.org/nirajpandkar/git-tip)
 
-> CLI that gives a random git-tip.[https://git.io/git-tip](https://git.io/v6BKO)
+> CLI that gives a random git-tip.
 
 The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json) is taken from this awesome project - [git-tips](https://github.com/git-tips/tips)
 
