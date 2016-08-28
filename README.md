@@ -4,7 +4,7 @@
 
 The git-tips [JSON file](https://github.com/git-tips/tips/blob/master/tips.json) is taken from this awesome project - [git-tips](https://github.com/git-tips/tips)
 
-![alt text](Images/git-tip.png "git-tip Screenshot")
+![alt text](Images/git-tip.gif "git-tip gif")
 
 ## Install
 
@@ -50,8 +50,8 @@ which git-tip >> ~/.bashrc
 - [ ] Add more relevant tests to increase code coverage
 - [x] Code coverage
 - [ ] Add code coverage reports
-- [ ] Script to automatically update tips.json file when installing globally from npm
-- [x] Script to execute `gtip` every time a new terminal opens
+- [x] Script to automatically update tips.json file when installing globally from npm
+- [x] Script to execute `git-tip` every time a new terminal opens
 
 ## License
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
