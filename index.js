@@ -30,26 +30,22 @@ function allTips(){
     return tips;
 }
 
-const cli = meow(`
-Usage
-    $ git-tip [options]
-Options
-    --help      Provides usage help (Shows the current page)
-    --all       Gives all the git tips
-    <keyword>   Gives the git tips consisting of the keyword
-Examples
-    $ git-tip bypass
+const cli = meow('\n Usage ' +
+                 '\n $ git-tip [options] ' +
+                 '\n Options ' +
+                 '\n     --help      Provides usage help (Shows the current page) ' +
+                 '\n     --all       Gives all the git tips ' +
+                 '\n     <keyword>   Gives the git tips consisting of the keyword ' +
+                 '\n Examples ' +
+                 '\n     $ git-tip bypass ' +
+                 '\n    1. Bypass pre-commit and commit-msg githooks ' +
+                 '\n     => git commit --no-verify ' +
+                 '\n      $ git-tip ' +
+                 '\n      Git Tip of the Terminal ' +
+                 '\n     ------------------------- ' +
+                 '\n     Saving current state of tracked files without commiting ' +
+                 '\n     => git stash ');
 
-    1. Bypass pre-commit and commit-msg githooks
-    => git commit --no-verify
-
-    $ git-tip
-
-    Git Tip of the Terminal
-    -------------------------
-    Saving current state of tracked files without commiting
-    => git stash
-`);
 
 
 if(cli.input[0]!=undefined){
