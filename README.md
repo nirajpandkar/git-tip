@@ -7,6 +7,18 @@ Any suggestion/criticism/PRs are welcome :)
 
 ![alt text](Images/git-tip.gif "git-tip gif")
 
+## `wget` dependency for Windows and Mac Users
+
+### Mac
+
+```
+$ brew install wget
+```
+
+### Windows
+
+[Download and install wget](http://gnuwin32.sourceforge.net/packages/wget.htm)
+
 ## Install
 
 ```
@@ -53,7 +65,7 @@ which git-tip >> ~/.bashrc
 - [ ] Add code coverage reports
 - [x] Script to automatically update tips.json file when installing globally from npm
 - [x] Script to execute `git-tip` every time a new terminal opens
-- [ ] Add `wget`'s necessity before installation in the README.
+- [x] Add `wget`'s necessity before installation in the README.
 
 ## License
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
